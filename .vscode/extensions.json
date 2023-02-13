@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "wakatime.vscode-wakatime",
+    "vue.volar",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
