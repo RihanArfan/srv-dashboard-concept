@@ -1,3 +1,8 @@
+<script setup lang="ts">
+const isDark = useDark();
+const toggleDark = useToggle(isDark);
+</script>
+
 <template>
   <div class="my-7 flex items-center justify-between">
     <NuxtLink
@@ -8,6 +13,13 @@
       <p class="my-auto text-xl font-semibold">SRVControl</p>
     </NuxtLink>
     <div class="flex items-center gap-3 pr-2">
+      <NavIcon @click="toggleDark()">
+        <Icon
+          :name="isDark ? 'fa6-solid:sun' : 'fa6-solid:moon'"
+          size="1.1em"
+        />
+      </NavIcon>
+
       <NuxtLink
         to="https://twitter.com/SRVControl"
         target="_blank"
@@ -18,6 +30,7 @@
       <NuxtLink to="https://discord.gg/7d2s79t" target="_blank" title="Discord">
         <NavIcon><Icon name="fa6-brands:discord" size="1.3em" /></NavIcon>
       </NuxtLink>
+
       <img
         src="***REMOVED***"
         alt=""
