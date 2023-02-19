@@ -1,42 +1,42 @@
-# Nuxt 3 Minimal Starter
+# SRVControl Concept Dashboard
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a concept dashboard for [SRVControl](https://srvcontrol.net/), which is a Discord bot for managing servers on [Pterodactyl](https://pterodactyl.io/).
 
-## Setup
+## Stack
+
+- Nuxt 3
+- TailwindCSS
+
+## Design
+
+You can view mockups for the dashboard on the [wiki](https://github.com/RihanArfan/srv-dashboard-concept/wiki/Design). The mockups can be edited using [Excalidraw](https://excalidraw.com/).
+
+## Developing
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
 pnpm install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
