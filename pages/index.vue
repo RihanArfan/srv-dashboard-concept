@@ -26,7 +26,7 @@ const profiles = ref([
     </NuxtLink>
   </CardThin>
 
-  <InstanceCard
+  <ProfileSummaryCard
     v-for="profile in profiles"
     :key="profile.id"
     class="mb-3"
