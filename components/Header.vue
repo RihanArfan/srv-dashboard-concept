@@ -32,7 +32,7 @@ const toggleDark = useToggle(isDark);
       </NuxtLink>
 
       <img
-        src="***REMOVED***"
+        src="/clyde.png"
         alt=""
         class="h-10 w-10 rounded-full bg-neutral-500"
       />
